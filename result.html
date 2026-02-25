@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result - TechTitans</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+
+    <h2>Resume Score: {{ score }}%</h2>
+
+    <div class="score-bar">
+        <div class="score-fill" style="width: {{ score }}%"></div>
+    </div>
+
+    <h3>Matched Skills</h3>
+    <ul class="matched">
+        {% for skill in matched %}
+            <li>{{ skill }}</li>
+        {% endfor %}
+    </ul>
+
+    <h3>Recommended Companies</h3>
+    <ul>
+        {% for company in companies %}
+            <li>{{ company }}</li>
+        {% endfor %}
+    </ul>
+
+    <a href="/improvement" class="btn">View Skill Improvement Plan</a>
+    <a href="/upload" class="btn">Analyze Another Resume</a>
+
+</div>
+</body>
+</html>

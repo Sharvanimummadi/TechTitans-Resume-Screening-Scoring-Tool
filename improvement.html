@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Improvement Plan</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+
+    <h2>Skill Improvement Roadmap</h2>
+
+    {% if missing %}
+        {% for skill, tip in improvement.items() %}
+            <div class="improve-card">
+                <h3>{{ skill }}</h3>
+                <p>{{ tip }}</p>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>You already have all required skills 🎉</p>
+    {% endif %}
+
+    <h2>Recommended Certifications</h2>
+    <ul>
+        {% for cert in certifications %}
+            <li>{{ cert }}</li>
+        {% endfor %}
+    </ul>
+
+    <a href="/upload" class="btn">Analyze Another Resume</a>
+
+</div>
+</body>
+</html>

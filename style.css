@@ -1,67 +1,80 @@
 body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #4e73df, #1cc88a);
     margin: 0;
-    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #1f4037, #99f2c8);
+}
+
+.home-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.center-box {
+    text-align: center;
+    background: white;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
 .container {
     width: 60%;
-    margin: 40px auto;
+    margin: 50px auto;
     background: white;
-    padding: 30px;
+    padding: 40px;
     border-radius: 15px;
-    box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
-}
-
-h1 {
-    text-align: center;
-    color: #4e73df;
-}
-
-form {
-    margin: 20px 0;
-    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
 select, input[type="file"] {
     width: 100%;
     padding: 10px;
-    margin: 10px 0;
+    margin: 15px 0;
     border-radius: 8px;
+    border: 1px solid #ccc;
 }
 
-button {
-    background: #4e73df;
+button, .btn {
+    background: linear-gradient(90deg, #1f4037, #99f2c8);
     color: white;
-    padding: 12px;
+    padding: 12px 25px;
     border: none;
     border-radius: 8px;
-    width: 100%;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-button:hover {
-    background: #2e59d9;
-}
-
-.matched {
-    color: green;
-    font-weight: bold;
-}
-
-.missing {
-    color: red;
-    font-weight: bold;
-}
-
-a {
     text-decoration: none;
-    color: #1cc88a;
-    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    display: inline-block;
+    margin-top: 10px;
 }
 
-a:hover {
-    text-decoration: underline;
+button:hover, .btn:hover {
+    transform: scale(1.05);
+}
+
+.matched li {
+    color: rgb(0, 11, 128);
+}
+
+.score-bar {
+    width: 100%;
+    background: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.score-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #00a0c8, #17dddd);
+    border-radius: 10px;
+}
+
+.improve-card {
+    background: #f5f5f5;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 5px solid #367ab2;
+    border-radius: 8px;
 }
