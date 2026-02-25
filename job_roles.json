@@ -1,0 +1,58 @@
+[
+  {
+    "role": "Python Developer",
+    "keywords": ["python", "flask", "django", "mysql", "api"],
+    "top_companies": [
+      {"name": "Google", "link": "https://careers.google.com"},
+      {"name": "Amazon", "link": "https://www.amazon.jobs"},
+      {"name": "Microsoft", "link": "https://careers.microsoft.com"}
+    ],
+    "mid_companies": [
+      {"name": "Infosys", "link": "https://careers.infosys.com"},
+      {"name": "TCS", "link": "https://www.tcs.com/careers"},
+      {"name": "Wipro", "link": "https://careers.wipro.com"}
+    ]
+  },
+  {
+    "role": "Java Developer",
+    "keywords": ["java", "spring", "hibernate", "mysql", "rest"],
+    "top_companies": [
+      {"name": "Oracle", "link": "https://www.oracle.com/careers"},
+      {"name": "IBM", "link": "https://www.ibm.com/careers"},
+      {"name": "Accenture", "link": "https://www.accenture.com/careers"}
+    ],
+    "mid_companies": [
+      {"name": "HCL", "link": "https://www.hcltech.com/careers"},
+      {"name": "Capgemini", "link": "https://www.capgemini.com/careers"},
+      {"name": "Tech Mahindra", "link": "https://careers.techmahindra.com"}
+    ]
+  },
+  {
+    "role": "Web Developer",
+    "keywords": ["html", "css", "javascript", "react", "node"],
+    "top_companies": [
+      {"name": "Adobe", "link": "https://careers.adobe.com"},
+      {"name": "Flipkart", "link": "https://www.flipkartcareers.com"},
+      {"name": "Meta", "link": "https://www.metacareers.com"}
+    ],
+    "mid_companies": [
+      {"name": "Zoho", "link": "https://careers.zoho.com"},
+      {"name": "Freshworks", "link": "https://www.freshworks.com/company/careers"},
+      {"name": "Cognizant", "link": "https://careers.cognizant.com"}
+    ]
+  },
+  {
+    "role": "Data Analyst",
+    "keywords": ["python", "sql", "excel", "power bi", "statistics"],
+    "top_companies": [
+      {"name": "Deloitte", "link": "https://www2.deloitte.com/careers"},
+      {"name": "KPMG", "link": "https://home.kpmg/xx/en/home/careers.html"},
+      {"name": "EY", "link": "https://careers.ey.com"}
+    ],
+    "mid_companies": [
+      {"name": "Mu Sigma", "link": "https://www.mu-sigma.com/careers"},
+      {"name": "Fractal Analytics", "link": "https://fractal.ai/careers"},
+      {"name": "Tiger Analytics", "link": "https://www.tigeranalytics.com/careers"}
+    ]
+  }
+]
